@@ -11,6 +11,7 @@ import numpy as np
 import tensorflow as tf
 
 tf.logging.set_verbosity(tf.logging.INFO)
+#sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 
 # Convolutional Layer #1: Applies 32 5x5 filters (extracting 5x5-pixel subregions),
 #   with ReLU activation function
